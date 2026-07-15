@@ -9,9 +9,9 @@
 
     overlays = {
       fastfetch = import ./overlays/fastfetch;
-      hyprland = import ./overlays/hyprland;
-      hyprlock = import ./overlays/hyprlock;
-      nushell = import ./overlays/nushell;
+      # hyprland = import ./overlays/hyprland;
+      # hyprlock = import ./overlays/hyprlock;
+      # nushell = import ./overlays/nushell;
       wezterm = import ./overlays/wezterm;
     };
   };
