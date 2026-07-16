@@ -4,8 +4,11 @@ local wezterm = require 'wezterm'
 local config = wezterm.config_builder and wezterm.config_builder() or {}
 
 -- font config
-config.font = wezterm.font("Agave Nerd Font", {weight="Regular", stretch="Normal", style="Normal"})
+config.font = wezterm.font 'Agave Nerd Font'
 config.font_size = 14.0
+
+config.freetype_load_target = 'Light'
+config.freetype_render_target = 'Light'
 
 -- tabs
 config.hide_tab_bar_if_only_one_tab = true
@@ -32,14 +35,14 @@ config.colors = {
 
   -- brights
   brights = {
-    "bcbcbc",
-    "d6717b",
-    "8ed671",
-    "d6b471",
-    "3395b2",
-    "847094",
-    "71d6b7",
-    "dadada"
+    "606060",
+    "d6404f",
+    "72d64b",
+    "d6a84b",
+    "29a6cc",
+    "765194",
+    "40d6a9",
+    "f8f8f8"
   },
 
   -- cursor
