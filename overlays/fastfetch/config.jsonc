@@ -15,7 +15,7 @@
   },
 
   // fetch appearance
-  "modules": {
+  "modules": [
     // header
     {
       "type": "title",
@@ -111,5 +111,5 @@
       "type": "custom",
       "format": "{#1}╰───────────────────────────────╯",
     },
-  },
+  ],
 }
