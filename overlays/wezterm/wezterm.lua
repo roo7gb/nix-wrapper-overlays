@@ -4,7 +4,7 @@ local wezterm = require 'wezterm'
 local config = wezterm.config_builder and wezterm.config_builder() or {}
 
 -- font config
-config.font = wezterm.font("Agave Nerd Font Mono", {weight="Regular", stretch="Normal", style="Normal"})
+config.font = wezterm.font("Agave Nerd Font", {weight="Regular", stretch="Normal", style="Normal"})
 config.font_size = 15.0
 
 -- tabs
@@ -98,8 +98,8 @@ config.colors = {
 }
 
 -- command palette
-config.command_palette_bg_color = "161616"
-config.command_palette_fg_color = "bcbcbc"
+config.command_palette_bg_color = "bcbcbc"
+config.command_palette_fg_color = "161616"
 
 -- window frame
 config.window_frame = {
