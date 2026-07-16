@@ -6,7 +6,7 @@ final: prev: {
     paths = [ final.wezterm ];
     buildInputs = [ final.makeWrapper ];
     postBuild = ''
-      wrapProgram "$out/bin/wezterm"
+      wrapProgram "$out/bin/wezterm" \
       --add-flags "--config-file ${./wezterm.lua}"
     '';
   };
