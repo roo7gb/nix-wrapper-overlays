@@ -5,7 +5,7 @@
     nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
   };
 
-  outputs = { self }: {
+  outputs = { self, nixpkgs }: {
 
     overlays = {
       conf-fastfetch = import ./overlays/fastfetch;
