@@ -8,11 +8,11 @@
   outputs = { self }: {
 
     overlays = {
-      fastfetch = import ./overlays/fastfetch;
-      # hyprland = import ./overlays/hyprland;
-      # hyprlock = import ./overlays/hyprlock;
-      # nushell = import ./overlays/nushell;
-      wezterm = import ./overlays/wezterm;
+      conf-fastfetch = import ./overlays/fastfetch;
+      # conf-hyprland = import ./overlays/hyprland;
+      # conf-hyprlock = import ./overlays/hyprlock;
+      # conf-nushell = import ./overlays/nushell;
+      conf-wezterm = import ./overlays/wezterm;
     };
   };
 }
