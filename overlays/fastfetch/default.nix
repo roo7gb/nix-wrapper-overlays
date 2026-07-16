@@ -6,7 +6,7 @@ final: prev: {
     paths = [ final.fastfetch ];
     buildInputs = [ final.makeWrapper ];
     postBuild = ''
-      wrapProgram "$out/bin/fastfetch"
+      wrapProgram "$out/bin/fastfetch" \
       --add-flags "-c ${./config.jsonc}"
     '';
   };
