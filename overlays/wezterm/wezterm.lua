@@ -5,7 +5,7 @@ local config = wezterm.config_builder and wezterm.config_builder() or {}
 
 -- font config
 config.font = wezterm.font("Agave Nerd Font", {weight="Regular", stretch="Normal", style="Normal"})
-config.font_size = 12.0
+config.font_size = 14.0
 
 -- tabs
 config.hide_tab_bar_if_only_one_tab = true
