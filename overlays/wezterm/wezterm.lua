@@ -17,7 +17,7 @@ config.window_background_opacity = 1.0
 config.colors = {
   -- ansi
   ansi = {
-    "242424",
+    "161616",
     "d6717b",
     "8ed671",
     "d6b471",
@@ -32,7 +32,7 @@ config.colors = {
 
   -- brights
   brights = {
-    "242424",
+    "bcbcbc",
     "d6717b",
     "8ed671",
     "d6b471",
