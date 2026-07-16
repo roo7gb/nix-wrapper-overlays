@@ -6,7 +6,7 @@ final: prev: {
     paths = [ final.hyprlock ];
     buildInputs = [ final.makeWrapper ];
     postBuild = ''
-      wrapPrograms "$out/bin/hyprlock" \
+      wrapProgram "$out/bin/hyprlock" \
       --add-flags "-c ${./hyprlock.conf}"
     '';
   };
