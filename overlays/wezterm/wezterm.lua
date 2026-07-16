@@ -6,6 +6,7 @@ local config = wezterm.config_builder and wezterm.config_builder() or {}
 -- font config
 config.font = wezterm.font 'Mononoki Nerd Font'
 config.font_size = 14.0
+config.font_rules.weight = 'Regular'
 
 config.freetype_load_target = 'Light'
 config.freetype_render_target = 'Light'
