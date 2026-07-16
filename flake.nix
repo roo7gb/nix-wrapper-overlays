@@ -10,7 +10,7 @@
     overlays = {
       conf-fastfetch = import ./overlays/fastfetch;
       # conf-hyprland = import ./overlays/hyprland;
-      # conf-hyprlock = import ./overlays/hyprlock;
+      conf-hyprlock = import ./overlays/hyprlock;
       # conf-nushell = import ./overlays/nushell;
       conf-wezterm = import ./overlays/wezterm;
     };
