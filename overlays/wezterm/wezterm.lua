@@ -4,7 +4,7 @@ local wezterm = require 'wezterm'
 local config = wezterm.config_builder and wezterm.config_builder() or {}
 
 -- font config
-config.font = wezterm.font 'Agave Nerd Font'
+config.font = wezterm.font("Agave Nerd Font Mono", {weight="Regular", stretch="Normal", style="Normal"})
 config.font_size = 15.0
 
 -- tabs
