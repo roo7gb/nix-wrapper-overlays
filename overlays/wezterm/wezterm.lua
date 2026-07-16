@@ -5,7 +5,7 @@ local config = wezterm.config_builder and wezterm.config_builder() or {}
 
 -- font config
 config.font = wezterm.font("Agave Nerd Font", {weight="Regular", stretch="Normal", style="Normal"})
-config.font_size = 15.0
+config.font_size = 12.0
 
 -- tabs
 config.hide_tab_bar_if_only_one_tab = true
@@ -63,7 +63,7 @@ config.colors = {
   -- bell
   visual_bell = "d68571",
 
--- tab colors
+  -- tab colors
   tab_bar = {
     -- bg
     background = "161616",
@@ -98,8 +98,8 @@ config.colors = {
 }
 
 -- command palette
-config.command_palette_bg_color = "bcbcbc"
-config.command_palette_fg_color = "161616"
+config.command_palette_bg_color = "161616"
+config.command_palette_fg_color = "bcbcbc"
 
 -- window frame
 config.window_frame = {
